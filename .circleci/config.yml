@@ -10,11 +10,9 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - node/install
+      - node/install-yarn
       - checkout
       # install dependencies in both apps
-      - run:
-          name: Install Dependencies
-          command: yarn install --immutable
       - run:
           name: frontend-install
           command: |
