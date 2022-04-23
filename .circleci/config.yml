@@ -16,3 +16,4 @@ jobs:
           name: hello
           command: |
             echo "hello-world"
+            echo "hi osomaher"
