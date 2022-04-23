@@ -15,16 +15,16 @@ jobs:
       - run:
           name: frontend-install
           command: |
-            frontend:install
+            npm run frontend:install
       - run:
           name: backend-install
           command: |
-            backend:install
+            npm run backend:install
       - run:
           name: frontend-build
           command: |
-            frontend:build
+            npm run frontend:build
       - run:
           name: backend-build
           command: |
-            backend:build
+            npm run backend:build
