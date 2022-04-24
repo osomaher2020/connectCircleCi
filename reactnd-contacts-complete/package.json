@@ -16,7 +16,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "frontend:deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
+    "build": "react-scripts build"
   }
 }
